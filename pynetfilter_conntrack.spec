@@ -1,5 +1,5 @@
 %define name pynetfilter_conntrack
-%define version 0.2
+%define version 0.4
 %define release %mkrel 1
 
 Summary: manipulate conntrack objects
@@ -52,5 +52,5 @@ rm -rf %{buildroot}
 %doc README
 %{_bindir}/conntrack.py
 %{py_puresitedir}/%{name}/*.py*
-
+%{py_puresitedir}/*egg-info
 
