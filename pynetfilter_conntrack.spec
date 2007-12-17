@@ -10,7 +10,6 @@ Source0: http://cheeseshop.python.org/packages/source/p/%{name}/%{name}-%{versio
 License: GPL
 Group: Networking/Other
 Url: http://software.inl.fr/trac/trac.cgi/wiki/%{name}
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
 BuildRequires: python-IPy
