@@ -2,7 +2,7 @@
 %define version 0.4
 %define release %mkrel 1
 
-Summary: manipulate conntrack objects
+Summary: Manipulate conntrack objects
 Name: %{name}
 Version: %{version}
 Release: %{release}
