@@ -1,6 +1,6 @@
 %define name pynetfilter_conntrack
 %define version 0.4
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Manipulate conntrack objects
 Name: %{name}
