@@ -1,25 +1,21 @@
-%define name pynetfilter_conntrack
-%define version 0.4
-%define release %mkrel 5
-
-Summary: Manipulate conntrack objects
-Name: %{name}
-Version: %{version}
-Release: %{release}
-Source0: http://cheeseshop.python.org/packages/source/p/%{name}/%{name}-%{version}.tar.bz2
-License: GPL
-Group: Networking/Other
-Url: http://software.inl.fr/trac/trac.cgi/wiki/%{name}
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildArch: noarch
-BuildRequires: python-devel
-BuildRequires: python-IPy
-BuildRequires: python-ctypes
-BuildRequires: python-elementtree
-BuildRequires: libnetfilter_conntrack-devel
-Requires: python-IPy
-Requires: python-ctypes
-Requires: python-elementtree
+Summary:	Manipulate conntrack objects
+Name:		pynetfilter_conntrack
+Version:	0.4.2
+Release:	%mkrel 1
+License:	GPLv2+
+Group:		Networking/Other
+Url:		http://pypi.python.org/pypi/pynetfilter_conntrack
+Source0:	http://cheeseshop.python.org/packages/source/p/pynetfilter_conntrack/%{name}-%{version}.tar.bz2
+BuildRequires:	python-devel
+BuildRequires:	python-IPy
+BuildRequires:	python-ctypes
+BuildRequires:	python-elementtree
+BuildRequires:	libnetfilter_conntrack-devel
+Requires:	python-IPy
+Requires:	python-ctypes
+Requires:	python-elementtree
+BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This python library is based on libnetfilter_conntrack, which lets you
@@ -49,8 +45,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc README
+%doc README AUTHORS
 %{_bindir}/conntrack.py
 %{py_puresitedir}/%{name}/*.py*
 %{py_puresitedir}/*egg-info
-
