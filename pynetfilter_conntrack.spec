@@ -1,7 +1,7 @@
 Summary:	Manipulate conntrack objects
 Name:		pynetfilter_conntrack
 Version:	0.4.2
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Networking/Other
 Url:		http://pypi.python.org/pypi/pynetfilter_conntrack
