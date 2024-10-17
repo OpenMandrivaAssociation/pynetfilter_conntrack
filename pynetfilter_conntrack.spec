@@ -4,7 +4,7 @@ Version:	0.4.2
 Release:	3
 License:	GPLv2+
 Group:		Networking/Other
-Url:		http://pypi.python.org/pypi/pynetfilter_conntrack
+Url:		https://pypi.python.org/pypi/pynetfilter_conntrack
 Source0:	http://cheeseshop.python.org/packages/source/p/pynetfilter_conntrack/%{name}-%{version}.tar.bz2
 BuildRequires:	python-devel
 BuildRequires:	python-ipy
